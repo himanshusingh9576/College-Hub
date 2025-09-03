@@ -252,7 +252,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 body{
     overflow-x: hidden;
-    background: #fcfcfc;
+    background: #ffffff;
     /* for footer position*/
     position: relative;
     padding-bottom: 500px;
@@ -323,9 +323,7 @@ body{
     align-items: center;
   }
   
-  .section-services {
   
-  }
   
   .section-hero p,
   .section-services p {
@@ -336,13 +334,19 @@ body{
     transform: translate(-50%,-50%);
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(255, 0, 0);
     font-weight: bold;
     font-size: 5em;
     font-family :Quicksand, sans-serif;
     }
-}
+    .section-hero h5,
+    .section-services h5 {
+      color: #009688 (200, 0, 0);
+    }
 
+.mySlides{
+  grid-auto-columns: auto;
+}
 
 .container{
 	width: 80%;
@@ -615,7 +619,7 @@ button:hover{
 .wrapper .static-txt{
     margin-left: 15px;
     font-size: 140px;
-    color: #3B3486;
+    color: #ef0489;
     font-size: 60px;
     line-height: 90px;
     font-weight: 400;
@@ -626,12 +630,12 @@ button:hover{
     height: 90px;
     font-size: 120px;
     line-height: 90px;
-    color: #E97777;
+    color: #f10707;
     overflow: hidden;
 }
 
 .dynamic-txts li{
-    color:rgb(255, 85, 85);
+    color:rgb(250, 138, 1);
     list-style: none;
     font-size: 90px;
     font-weight: 500;
